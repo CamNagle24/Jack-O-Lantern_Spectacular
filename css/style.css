@@ -1,0 +1,443 @@
+@font-face {
+    font-family: 'Creepster';
+    src: url(../fonts/Creepster-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Archivo Black';
+    src: url(../fonts/ArchivoBlack-Regular.ttf) format("truetype");
+}
+
+.aboveHeader {
+    width: 100vw;
+    height: 15vh;
+    background: #1A001E;
+    position: relative;
+}
+
+.zooLogo {
+    width: 390px;
+    height: 100px;
+    background: url("../images/jolslogo2021.jpg") center no-repeat;
+    display: flex;
+    background-size: cover;
+    position: absolute;
+}
+
+.membership {
+    font-family: 'Creepster';
+    font-size: 1.75em;
+    color: #FFEA8C;
+    background: #1A001E;
+    position:absolute;
+    letter-spacing: 0.1px;
+    margin: auto;
+    width: 200px;
+    height: 48px;
+    padding: 8px 10px 0px 10px;
+    left: 95%;
+    top: 50%;
+    transform:translate(-95%,-50%);
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border: #FFEA8C 3px solid;
+    transition: 1s;
+}
+
+.donate {
+    font-family: 'Creepster';
+    font-size: 1.75em;
+    color: #FFEA8C;
+    background: #1A001E;
+    position:absolute;
+    letter-spacing: 0.1px;
+    margin: auto;
+    width: 200px;
+    height: 48px;
+    padding: 8px 10px 0px 10px;
+    left: 75%;
+    top: 50%;
+    transform:translate(-75%,-50%);
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border: #FFEA8C 3px solid;
+    transition: 1s;
+}
+
+.header {
+    width: 100vw;
+    height: 10vh;
+    background: #780145;
+    position: relative;
+}
+
+.headerButton1 {
+    font-family: 'Creepster';
+    font-size: 1.75em;
+    color: #FFEA8C;
+    background: #780145;
+    position:absolute;
+    letter-spacing: 0.1px;
+    margin: auto;
+    width: 200px;
+    height: 48px;
+    padding: 8px 10px 0px 10px;
+    left: 5%;
+    top: 50%;
+    transform:translate(-5%,-50%);
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border: #FFEA8C 3px solid;
+    transition: 1s;
+}
+
+.headerButton2 {
+    font-family: 'Creepster';
+    font-size: 1.75em;
+    color: #FFEA8C;
+    background: #780145;
+    position:absolute;
+    letter-spacing: 0.1px;
+    margin: auto;
+    width: 200px;
+    height: 48px;
+    padding: 8px 5px 0px 5px;
+    left: 27.5%;
+    top: 50%;
+    transform:translate(-27.5%,-50%);
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border: #FFEA8C 3px solid;
+    transition: 1s;
+}
+
+.headerButton3 {
+    font-family: 'Creepster';
+    font-size: 1.75em;
+    color: #FFEA8C;
+    background: #780145;
+    position:absolute;
+    letter-spacing: 0.1px;
+    margin: auto;
+    width: 250px;
+    height: 48px;
+    padding: 8px 5px 0px 5px;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border: #FFEA8C 3px solid;
+    transition: 1s;
+}
+
+.headerButton4 {
+    font-family: 'Creepster';
+    font-size: 1.75em;
+    color: #FFEA8C;
+    background: #780145;
+    position:absolute;
+    letter-spacing: 0.1px;
+    margin: auto;
+    width: 200px;
+    height: 48px;
+    padding: 8px 5px 0px 5px;
+    left: 72.5%;
+    top: 50%;
+    transform:translate(-72.5%,-50%);
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border: #FFEA8C 3px solid;
+    transition: 1s;
+}
+
+.headerButton5 {
+    font-family: 'Creepster';
+    font-size: 2em;
+    color: #FFEA8C;
+    background: #780145;
+    position:absolute;
+    letter-spacing: 0.1px;
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    left: 95%;
+    top: 50%;
+    transform:translate(-95%,-50%);
+    text-align: center;
+    text-decoration: none;
+    border: #FFEA8C 3px solid;
+    transition: 1s;
+}
+
+.cover {
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/IMG_0898\ 2.jpeg") center no-repeat;
+    display: flex;
+    background-size: cover;
+    position: relative;
+}
+
+.cover2 {
+    width: 80%;
+    height: 80%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    opacity: .2;
+    transform:translate(-50%,-50%);
+    background: white;
+}
+
+.title {
+    font-family: 'Creepster';
+    font-size: 5em;
+    color: #FFEA8C;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform:translate(-50%,-20%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 80%;
+}
+
+/* Links on hover could turn in to pumpkins?
+*/
+.link {
+    font-family: 'Archivo Black';
+    font-size: 2em;
+    color: #FFEA8C;
+    background: #780145;
+    position: absolute;
+    letter-spacing: 0.1px;
+    display: block;
+    margin: auto;
+    width: 320px;
+    padding: 10px;
+    left: 50%;
+    bottom: 20%;
+    transform:translate(-50%,-20%);
+    text-align: center;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.link:hover {
+    color: white;
+    background: #939393;
+    transition: 1s;
+}
+
+.regular {
+    font-family: 'Archivo Black';
+    font-size: 2em;
+    color: #FFEA8C;
+    background: #780145;
+    position: absolute;
+    letter-spacing: 0.1px;
+    display: block;
+    margin: auto;
+    width: 580px;
+    padding: 10px;
+    left: 50%;
+    bottom: 40%;
+    transform:translate(-50%,-20%);
+    text-align: center;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.voting {
+    width: 100vw;
+    height: 100vh;
+    background: #780145;
+    display: flex;
+    position: relative;
+}
+
+.title2 {
+    font-family: 'Creepster';
+    font-size: 4em;
+    color: #FFEA8C;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform:translate(-50%,-10%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 40%;
+}
+
+.description {
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: #FFEA8C;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform:translate(-50%,-20%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 60%;
+}
+
+.pic1 {
+    width: 300px;
+    height: 300px;
+    background: url("../images/frank.jpg") center no-repeat;
+    display: flex;
+    background-size: cover;
+    background-position-x: -130px;
+    left: 20%;
+    top: 50%;
+    transform:translate(-20%,-50%);
+    position: absolute;
+}
+
+.name1 {
+    font-family: 'Creepster';
+    font-size: 3em;
+    color: #FFEA8C;
+    position: absolute;
+    left: 20%;
+    top: 75%;
+    transform:translate(-20%,-75%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 300px;
+}
+
+.pic2 {
+    width: 300px;
+    height: 300px;
+    background: url("../images/piza.jpg") center no-repeat;
+    display: flex;
+    background-size: cover;
+    background-position-x: -20px;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+}
+
+.name2 {
+    font-family: 'Creepster';
+    font-size: 3em;
+    color: #FFEA8C;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform:translate(-50%,-80%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 300px;
+}
+
+.pic3 {
+    width: 300px;
+    height: 300px;
+    background: url("../images/monster-squid-2903354676-o.jpg") center no-repeat;
+    display: flex;
+    background-size: cover;
+    background-position-x: -110px;
+    left: 80%;
+    top: 50%;
+    transform:translate(-80%,-50%);
+    position: absolute;
+}
+
+.name3 {
+    font-family: 'Creepster';
+    font-size: 3em;
+    color: #FFEA8C;
+    position: absolute;
+    left: 80%;
+    top: 75%;
+    transform:translate(-80%,-75%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 300px;
+}
+
+.link2 {
+    font-family: 'Archivo Black';
+    font-size: 2em;
+    color: #FFEA8C;
+    background: #1A001E;
+    position: absolute;
+    letter-spacing: 0.1px;
+    display: block;
+    margin: auto;
+    width: 320px;
+    padding: 10px;
+    left: 50%;
+    bottom: 5%;
+    transform:translate(-50%,-5%);
+    text-align: center;
+    text-decoration: none;
+    transition: 1s;
+}
+
+/* Links on hover could turn in to pumpkins?
+*/
+.link2:hover {
+    color: white;
+    background: #939393;
+    transition: 1s;
+}
+
+.leftArrow {
+    width: 50px;
+    height: 50px;
+    background: url("../images/right-arrow-svgrepo-com.svg") center no-repeat;
+    color: #FFEA8C;
+    display: flex;
+    background-size: cover;
+    left: 10%;
+    top: 50%;
+    transform:translate(-10%,-50%) rotate(180deg);
+    position: absolute;
+}
+
+.rightArrow {
+    width: 50px;
+    height: 50px;
+    background: url("../images/right-arrow-svgrepo-com.svg") center no-repeat;
+    color: #FFEA8C;
+    display: flex;
+    background-size: cover;
+    left: 90%;
+    top: 50%;
+    transform:translate(-90%,-50%);
+    position: absolute;
+}
+
+.footer {
+    width: 100vw;
+    height: 10vh;
+    background: #1A001E;
+    position: relative;
+}
+
+.footerText {
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: #FFEA8C;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 60%;
+}
