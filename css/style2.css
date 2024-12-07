@@ -232,7 +232,7 @@
 
 .name1 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
     left: 15%;
@@ -258,12 +258,12 @@
 
 .name2 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
     left: 50%;
-    top: 85%;
-    transform:translate(-50%,-85%);
+    top: 25%;
+    transform:translate(-50%,-25%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -284,12 +284,12 @@
 
 .name3 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
     left: 85%;
-    top: 80%;
-    transform:translate(-85%,-80%);
+    top: 25%;
+    transform:translate(-85%,-25%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -310,12 +310,12 @@
 
 .name4 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
     left: 15%;
-    top: 80%;
-    transform:translate(-15%,-80%);
+    top: 43%;
+    transform:translate(-15%,-43%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -336,12 +336,12 @@
 
 .name5 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
     left: 50%;
-    top: 85%;
-    transform:translate(-50%,-85%);
+    top: 43%;
+    transform:translate(-50%,-43%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -362,12 +362,12 @@
 
 .name6 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
     left: 85%;
-    top: 80%;
-    transform:translate(-85%,-80%);
+    top: 43%;
+    transform:translate(-85%,-43%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -388,12 +388,12 @@
 
 .name7 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
     left: 15%;
-    top: 80%;
-    transform:translate(-15%,-80%);
+    top: 61%;
+    transform:translate(-15%,-61%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -414,12 +414,12 @@
 
 .name8 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
     left: 50%;
-    top: 85%;
-    transform:translate(-50%,-85%);
+    top: 61%;
+    transform:translate(-50%,-61%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -440,12 +440,12 @@
 
 .name9 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
     left: 85%;
-    top: 80%;
-    transform:translate(-85%,-80%);
+    top: 61%;
+    transform:translate(-85%,-61%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -466,12 +466,12 @@
 
 .name10 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
     left: 85%;
-    top: 80%;
-    transform:translate(-85%,-80%);
+    top: 79%;
+    transform:translate(-85%,-79%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -491,12 +491,12 @@
 
 .name11 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
     left: 15%;
-    top: 80%;
-    transform:translate(-15%,-80%);
+    top: 79%;
+    transform:translate(-15%,-79%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -516,12 +516,12 @@
 
 .name12 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
     left: 50%;
-    top: 85%;
-    transform:translate(-50%,-85%);
+    top: 79%;
+    transform:translate(-15%,-79%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -541,12 +541,12 @@
 
 .name13 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
-    left: 85%;
-    top: 80%;
-    transform:translate(-85%,-80%);
+    left: 15%;
+    top: 98%;
+    transform:translate(-15%,-98%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -566,12 +566,12 @@
 
 .name14 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
-    left: 85%;
-    top: 80%;
-    transform:translate(-85%,-80%);
+    left: 50%;
+    top: 98%;
+    transform:translate(-50%,-98%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -591,12 +591,12 @@
 
 .name15 {
     font-family: 'Creepster';
-    font-size: 3em;
+    font-size: 2em;
     color: #FFEA8C;
     position: absolute;
     left: 85%;
-    top: 80%;
-    transform:translate(-85%,-80%);
+    top: 98%;
+    transform:translate(-85%,-98%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
