@@ -6,9 +6,11 @@
 		<!-- CSS Files -->
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/splide.min.css">
 
 		<!-- All JS Files -->
 		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/splide.min.js"></script>
 	
 		<title>Jack-O-Lantern Spectacular</title>
 	
@@ -36,18 +38,46 @@
 		<a class="link" href="https://nyti.ms/17knCmQ" target="_blank">Buy Tickets!</a>
 	</div>
 
+	<!-- How to change the in between gap of the pictures? Also more pictrues? Also Custom Buttons? -->
 	<div class="voting">
 		<h1 class="title2">Last Week's Pumpkins</h1>
 		<p class="description">The largest pumpkins take 10+ hours to carve and must be refreshed every 3-5 days! Thank you to our 20+ carvers who have spent over 1000 hours to create these pumpkin Picasso's 🎃 </p>
-		<div class="pic1"></div>
-		<p class="name1">Frankenstein</p>
-		<div class="pic2"></div>
-		<p class="name2">Leaning Tower of Pisa</p>
-		<div class="pic3"></div>
-		<p class="name3">Pirate Ship</p>
+		
+		<section class="splide" aria-label="Splide Basic HTML Example">
+			<div class="splide__track">
+				<ul class="splide__list">
+					<li class="splide__slide">
+						<div class="pic1"></div>
+						<p class="name1">Frankenstein</p>
+					</li>
+					<li class="splide__slide">
+						<div class="pic2"></div>
+						<p class="name2">Snoop Dog</p>
+					</li>
+					<li class="splide__slide">
+						<div class="pic3"></div>
+						<p class="name3">Pirate Ship</p>
+					</li>
+					<li class="splide__slide">
+						<div class="pic4"></div>
+						<p class="name4">Avatar</p>
+					</li>
+					<li class="splide__slide">
+						<div class="pic5"></div>
+						<p class="name5">T-Rex</p>
+					</li>
+					<li class="splide__slide">
+						<div class="pic6"></div>
+						<p class="name6">Zombie</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<button class="leftArrow"></button>
+		<button class="rightArrow"></button>
+
 		<a class="link2" href="https://nyti.ms/17knCmQ" target="_blank">Vote Here!</a>
-		<div class="leftArrow"></div>
-		<div class="rightArrow"></div>
 	</div>
 
 	<div class="footer">

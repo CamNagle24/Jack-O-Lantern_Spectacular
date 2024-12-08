@@ -257,6 +257,27 @@
     transition: 1s;
 }
 
+.splide {
+    width: 100%;
+    max-width: 1200px; /* Optional: Restrict maximum width */
+    margin: auto; /* Center the slider */
+    height: 400px; /* Set height of the slider */
+}
+
+.splide__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack image and text vertically */
+    width: 100%; /* Ensure each slide fills its allotted space */
+    margin: 0;
+    padding: 0;
+}
+
+.splide__track {
+    height: 100%; /* Ensure it fills the parent container */
+}
+
 .voting {
     width: 100vw;
     height: 100vh;
@@ -298,9 +319,6 @@
     display: flex;
     background-size: cover;
     background-position-x: -130px;
-    left: 15%;
-    top: 50%;
-    transform:translate(-15%,-50%);
     position: absolute;
 }
 
@@ -309,9 +327,8 @@
     font-size: 3em;
     color: #FFEA8C;
     position: absolute;
-    left: 15%;
-    top: 80%;
-    transform:translate(-15%,-80%);
+    top: 100%;
+    transform:translate(0%,-100%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -320,13 +337,10 @@
 .pic2 {
     width: 300px;
     height: 300px;
-    background: url("../images/piza.jpg") center no-repeat;
+    background: url("../images/snoop.JPG") center no-repeat;
     display: flex;
     background-size: cover;
-    background-position-x: -20px;
-    left: 50%;
-    top: 50%;
-    transform:translate(-50%,-50%);
+    background-position-x: 10px;
     position: absolute;
 }
 
@@ -335,9 +349,8 @@
     font-size: 3em;
     color: #FFEA8C;
     position: absolute;
-    left: 50%;
-    top: 85%;
-    transform:translate(-50%,-85%);
+    top: 100%;
+    transform:translate(0%,-100%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -350,9 +363,6 @@
     display: flex;
     background-size: cover;
     background-position-x: -110px;
-    left: 85%;
-    top: 50%;
-    transform:translate(-85%,-50%);
     position: absolute;
 }
 
@@ -361,9 +371,74 @@
     font-size: 3em;
     color: #FFEA8C;
     position: absolute;
-    left: 85%;
-    top: 80%;
-    transform:translate(-85%,-80%);
+    top: 100%;
+    transform:translate(0%,-100%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 300px;
+}
+
+.pic4 {
+    width: 300px;
+    height: 300px;
+    background: url("../images/avatar.jpg") center no-repeat;
+    display: flex;
+    background-size: cover;
+    background-position-x: 0px;
+    position: absolute;
+}
+
+.name4 {
+    font-family: 'Creepster';
+    font-size: 3em;
+    color: #FFEA8C;
+    position: absolute;
+    top: 100%;
+    transform:translate(0%,-100%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 300px;
+}
+
+.pic5 {
+    width: 300px;
+    height: 300px;
+    background: url("../images/T-Rex.jpg") center no-repeat;
+    display: flex;
+    background-size: cover;
+    background-position-x: 0px;
+    position: absolute;
+}
+
+.name5 {
+    font-family: 'Creepster';
+    font-size: 3em;
+    color: #FFEA8C;
+    position: absolute;
+    top: 100%;
+    transform:translate(0%,-100%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 300px;
+}
+
+.pic6 {
+    width: 300px;
+    height: 300px;
+    background: url("../images/zombie.jpg") center no-repeat;
+    display: flex;
+    background-size: cover;
+    background-position-x: -150px;
+    position: absolute;
+}
+
+.name6 {
+    font-family: 'Creepster';
+    font-size: 3em;
+    color: #FFEA8C;
+    position: absolute;
+    top: 100%;
+    transform:translate(0%,-100%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -403,7 +478,8 @@
     color: #FFEA8C;
     display: flex;
     background-size: cover;
-    left: 7%;
+    border: none;
+    left: 3%;
     top: 50%;
     transform:translate(-7%,-50%) rotate(180deg);
     position: absolute;
@@ -416,7 +492,8 @@
     color: #FFEA8C;
     display: flex;
     background-size: cover;
-    left: 93%;
+    border: none;
+    left: 97%;
     top: 50%;
     transform:translate(-93%,-50%);
     position: absolute;

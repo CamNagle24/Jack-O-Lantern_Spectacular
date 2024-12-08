@@ -469,9 +469,9 @@
     font-size: 2em;
     color: #FFEA8C;
     position: absolute;
-    left: 85%;
+    left: 15%;
     top: 79%;
-    transform:translate(-85%,-79%);
+    transform:translate(-15%,-79%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -494,9 +494,9 @@
     font-size: 2em;
     color: #FFEA8C;
     position: absolute;
-    left: 15%;
+    left: 50%;
     top: 79%;
-    transform:translate(-15%,-79%);
+    transform:translate(-50%,-79%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -519,9 +519,9 @@
     font-size: 2em;
     color: #FFEA8C;
     position: absolute;
-    left: 50%;
+    left: 85%;
     top: 79%;
-    transform:translate(-15%,-79%);
+    transform:translate(-85%,-79%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
