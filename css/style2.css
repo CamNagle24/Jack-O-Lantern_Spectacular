@@ -1229,31 +1229,6 @@
     width: 300px;
 }
 
-.link {
-    font-family: 'Archivo Black';
-    font-size: 2em;
-    color: #FFEA8C;
-    background: #780145;
-    position: absolute;
-    letter-spacing: 0.1px;
-    display: block;
-    margin: auto;
-    width: 320px;
-    padding: 10px;
-    left: 50%;
-    bottom: 20%;
-    transform:translate(-50%,-20%);
-    text-align: center;
-    text-decoration: none;
-    transition: 1s;
-}
-
-.link:hover {
-    color: white;
-    background: #939393;
-    transition: 1s;
-}
-
 .regular {
     font-family: 'Archivo Black';
     font-size: 2em;
@@ -1297,31 +1272,6 @@
     letter-spacing: 0.3px;
     text-align: center;
     width: 60%;
-}
-
-.link2 {
-    font-family: 'Archivo Black';
-    font-size: 2em;
-    color: #FFEA8C;
-    background: #1A001E;
-    position: absolute;
-    letter-spacing: 0.1px;
-    display: block;
-    margin: auto;
-    width: 320px;
-    padding: 10px;
-    left: 50%;
-    bottom: 3%;
-    transform:translate(-50%,-3%);
-    text-align: center;
-    text-decoration: none;
-    transition: 1s;
-}
-
-.link2:hover {
-    color: white;
-    background: #939393;
-    transition: 1s;
 }
 
 .leftArrow {
