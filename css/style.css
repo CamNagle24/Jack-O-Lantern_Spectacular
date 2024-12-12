@@ -233,8 +233,8 @@
 }
 
 .link:hover {
-    color: white;
-    background: #939393;
+    color: #1A001E;
+    background: #FFA500;
     transition: 1s;
 }
 
@@ -466,8 +466,8 @@
 /* Links on hover could turn in to pumpkins?
 */
 .link2:hover {
-    color: white;
-    background: #939393;
+    color: #1A001E;
+    background: #FFA500;
     transition: 1s;
 }
 

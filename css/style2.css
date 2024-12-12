@@ -243,6 +243,633 @@
     width: 300px;
 }
 
+.resultContainer1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 15%;
+    top: 27%;
+    transform:translate(-15%,-27%);
+}
+
+.result1 {
+    font-size: 3em;
+    color: #FFEA8C;
+    margin-bottom: 10px;
+}
+
+.buttonContainer1 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton1 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton1:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 50%;
+    top: 27%;
+    transform:translate(-50%,-27%);
+}
+
+.result2 {
+    font-size: 3em;
+    color: #FFEA8C;
+    margin-bottom: 10px;
+}
+
+.buttonContainer2 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton2 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton2:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 85%;
+    top: 27%;
+    transform:translate(-85%,-27%);
+}
+
+.result3 {
+    font-size: 3em;
+    color: #FFEA8C;
+    margin-bottom: 10px;
+}
+
+.buttonContainer3 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton3 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton3:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer4 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 15%;
+    top: 45%;
+    transform:translate(-15%,-45%);
+}
+
+.result4 {
+    font-size: 3em;
+    color: #FFEA8C;
+    margin-bottom: 10px;
+}
+
+.buttonContainer4 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton4 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton4:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer5 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 50%;
+    top: 45%;
+    transform:translate(-50%,-45%);
+}
+
+.result5 {
+    font-size: 3em;
+    color: #FFEA8C;
+    margin-bottom: 10px;
+}
+
+.buttonContainer5 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton5 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton5:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer6 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 85%;
+    top: 45%;
+    transform:translate(-85%,-45%);
+}
+
+.result6 {
+    font-size: 3em;
+    color: #FFEA8C;
+    margin-bottom: 10px;
+}
+
+.buttonContainer6 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton6 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton6:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer7 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 15%;
+    top: 63%;
+    transform:translate(-15%,-63%);
+}
+
+.result7 {
+    font-size: 3em;
+    color: #FFEA8C;
+    margin-bottom: 10px;
+}
+
+.buttonContainer7 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton7 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton7:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer8 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 50%;
+    top: 63%;
+    transform:translate(-50%,-63%);
+}
+
+.result8 {
+    font-size: 3em;
+    color: #FFEA8C;
+    margin-bottom: 10px;
+}
+
+.buttonContainer8 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton8 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton8:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer9 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 85%;
+    top: 63%;
+    transform:translate(-85%,-63%);
+}
+
+.result9 {
+    font-size: 3em;
+    color: #FFEA8C;
+    margin-bottom: 10px;
+}
+
+.buttonContainer9 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton9 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton9:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer10 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 15%;
+    top: 82%;
+    transform:translate(-15%,-82%);
+}
+
+.result10 {
+    font-size: 3em;
+    color: #FFEA8C;
+    margin-bottom: 10px;
+}
+
+.buttonContainer10 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton10 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton10:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer11 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 50%;
+    top: 82%;
+    transform:translate(-50%,-82%);
+}
+
+.result11 {
+    font-size: 3em;
+    color: #FFEA8C;
+    margin-bottom: 10px;
+}
+
+.buttonContainer11 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton11 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton11:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer12 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 85%;
+    top: 82%;
+    transform:translate(-85%,-82%);
+}
+
+.result12 {
+    font-size: 3em;
+    color: #FFEA8C;
+    margin-bottom: 10px;
+}
+
+.buttonContainer12 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton12 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton12:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer13 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 15%;
+    top: 99.5%;
+    transform:translate(-15%,-99.5%);
+}
+
+.result13 {
+    font-size: 2em;
+    color: #FFEA8C;
+}
+
+.buttonContainer13 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton13 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton13:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer14 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 50%;
+    top: 99.5%;
+    transform:translate(-50%,-99.5%);
+}
+
+.result14 {
+    font-size: 2em;
+    color: #FFEA8C;
+}
+
+.buttonContainer14 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton14 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton14:hover {
+    transform: scale(1.1);
+}
+
+.resultContainer15 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Archivo Black';
+    font-size: 1em;
+    color: white;
+    height: 100px;
+    width: 300px;
+    left: 85%;
+    top: 99.5%;
+    transform:translate(-85%,-99.5%);
+}
+
+.result15 {
+    font-size: 2em;
+    color: #FFEA8C;
+}
+
+.buttonContainer15 {
+    display: flex;
+    gap: 10px;
+}
+
+.voteButton15 {
+    background: url(../images/Vector.svg) center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.voteButton15:hover {
+    transform: scale(1.1);
+}
+
 .pic2 {
     width: 300px;
     height: 300px;
@@ -457,7 +1084,7 @@
     background: url("../images/snoop.JPG") center no-repeat;
     display: flex;
     background-size: cover;
-    background-position-x: 10px;
+    background-position-x: 0px;
     left: 15%;
     top: 75%;
     transform:translate(-15%,-75%);
@@ -505,7 +1132,7 @@
 .pic12 {
     width: 300px;
     height: 300px;
-    background: url("../images/Horse.jpg") center no-repeat;
+    background: url("../images/Horse.jpeg") center no-repeat;
     display: flex;
     background-size: cover;
     left: 85%;
@@ -545,8 +1172,8 @@
     color: #FFEA8C;
     position: absolute;
     left: 15%;
-    top: 98%;
-    transform:translate(-15%,-98%);
+    top: 97%;
+    transform:translate(-15%,-97%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -570,8 +1197,8 @@
     color: #FFEA8C;
     position: absolute;
     left: 50%;
-    top: 98%;
-    transform:translate(-50%,-98%);
+    top: 97%;
+    transform:translate(-50%,-97%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -595,15 +1222,13 @@
     color: #FFEA8C;
     position: absolute;
     left: 85%;
-    top: 98%;
-    transform:translate(-85%,-98%);
+    top: 97%;
+    transform:translate(-85%,-97%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
 }
 
-/* Links on hover could turn in to pumpkins?
-*/
 .link {
     font-family: 'Archivo Black';
     font-size: 2em;
@@ -693,8 +1318,6 @@
     transition: 1s;
 }
 
-/* Links on hover could turn in to pumpkins?
-*/
 .link2:hover {
     color: white;
     background: #939393;
