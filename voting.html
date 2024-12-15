@@ -6,10 +6,12 @@
 		<!-- CSS Files -->
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style2.css" />
+		
 
 		<!-- All JS Files -->
 		<script type="text/javascript" src="js/script.js"></script>
-	
+		<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+
 		<title>Pumpkin Voting</title>
 	
 	</head>
@@ -29,7 +31,6 @@
 		<p class="headerButton5">Shop</p>
 	</div>
 
-	<!-- Why are all the pictures not showing? -->
 	<div class="voting">
 		<h1 class="title">Pumpkin Voting</h1>
 		<h1 class="filter">Filter By: 
@@ -40,127 +41,159 @@
 			<span>a-z</span> 
 			<span>z-a</span> 
 			<span>Giant</span></h1>
-		<div class="pic1"></div>
-		<div class="name1">Roman Pantheon</div>
-		<div class="resultContainer1">
-			<div class="result1" id="rslt1">115 votes</div>
-			<div class="buttonContainer1">
-				<button class="voteButton1" onclick="mclick1(1)"></button>
+		<div class="grid">
+		<!-- Each entry is a grid-item -->
+		<div class="grid-item">
+			<div class="pic1"></div>
+			<div class="name1">Roman Pantheon</div>
+			<div class="resultContainer1">
+				<div class="result1" id="rslt1">115 votes</div>
+				<div class="buttonContainer1">
+					<button class="voteButton1" onclick="mclick1(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic2"></div>
-		<div class="name2">Zombie</div>
-		<div class="resultContainer2">
-			<div class="result2" id="rslt2">500 votes</div>
-			<div class="buttonContainer2">
-				<button class="voteButton2" onclick="mclick2(1)"></button>
+		<div class="grid-item">
+			<div class="pic2"></div>
+			<div class="name2">Zombie</div>
+			<div class="resultContainer2">
+				<div class="result2" id="rslt2">500 votes</div>
+				<div class="buttonContainer2">
+					<button class="voteButton2" onclick="mclick2(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic3"></div>
-		<div class="name3">Avatar</div>
-		<div class="resultContainer3">
-			<div class="result3" id="rslt3">255 votes</div>
-			<div class="buttonContainer3">
-				<button class="voteButton3" onclick="mclick3(1)"></button>
+		<div class="grid-item">
+			<div class="pic3"></div>
+			<div class="name3">Avatar</div>
+			<div class="resultContainer3">
+				<div class="result3" id="rslt3">255 votes</div>
+				<div class="buttonContainer3">
+					<button class="voteButton3" onclick="mclick3(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic4"></div>
-		<div class="name4">Frankenstein</div>
-		<div class="resultContainer4">
-			<div class="result4" id="rslt4">600 votes</div>
-			<div class="buttonContainer4">
-				<button class="voteButton4" onclick="mclick4(1)"></button>
+		<div class="grid-item">
+			<div class="pic4"></div>
+			<div class="name4">Frankenstein</div>
+			<div class="resultContainer4">
+				<div class="result4" id="rslt4">600 votes</div>
+				<div class="buttonContainer4">
+					<button class="voteButton4" onclick="mclick4(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic5"></div>
-		<div class="name5">Pirate Ship</div>
-		<div class="resultContainer5">
-			<div class="result5" id="rslt5">900 votes</div>
-			<div class="buttonContainer5">
-				<button class="voteButton5" onclick="mclick5(1)"></button>
+		<div class="grid-item">
+			<div class="pic5"></div>
+			<div class="name5">Pirate Ship</div>
+			<div class="resultContainer5">
+				<div class="result5" id="rslt5">900 votes</div>
+				<div class="buttonContainer5">
+					<button class="voteButton5" onclick="mclick5(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic6"></div>
-		<div class="name6">Leaning tower of pisa</div>
-		<div class="resultContainer6">
-			<div class="result6" id="rslt6">120 votes</div>
-			<div class="buttonContainer6">
-				<button class="voteButton6" onclick="mclick6(1)"></button>
+		<div class="grid-item">
+			<div class="pic6"></div>
+			<div class="name6">Leaning tower of pisa</div>
+			<div class="resultContainer6">
+				<div class="result6" id="rslt6">120 votes</div>
+				<div class="buttonContainer6">
+					<button class="voteButton6" onclick="mclick6(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic7"></div>
-		<div class="name7">T-Rex</div>
-		<div class="resultContainer7">
-			<div class="result7" id="rslt7">800 votes</div>
-			<div class="buttonContainer7">
-				<button class="voteButton7" onclick="mclick7(1)"></button>
+		<div class="grid-item">
+			<div class="pic7"></div>
+			<div class="name7">T-Rex</div>
+			<div class="resultContainer7">
+				<div class="result7" id="rslt7">800 votes</div>
+				<div class="buttonContainer7">
+					<button class="voteButton7" onclick="mclick7(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic8"></div>
-		<div class="name8">Pharaoh</div>
-		<div class="resultContainer8">
-			<div class="result8" id="rslt8">500 votes</div>
-			<div class="buttonContainer8">
-				<button class="voteButton8" onclick="mclick8(1)"></button>
+		<div class="grid-item">
+			<div class="pic8"></div>
+			<div class="name8">Pharaoh</div>
+			<div class="resultContainer8">
+				<div class="result8" id="rslt8">500 votes</div>
+				<div class="buttonContainer8">
+					<button class="voteButton8" onclick="mclick8(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic9"></div>
-		<div class="name9">Beetlejuice</div>
-		<div class="resultContainer9">
-			<div class="result9" id="rslt9">800 votes</div>
-			<div class="buttonContainer9">
-				<button class="voteButton9" onclick="mclick9(1)"></button>
+		<div class="grid-item">
+			<div class="pic9"></div>
+			<div class="name9">Beetlejuice</div>
+			<div class="resultContainer9">
+				<div class="result9" id="rslt9">800 votes</div>
+				<div class="buttonContainer9">
+					<button class="voteButton9" onclick="mclick9(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic10"></div>
-		<div class="name10">Snoop Dog</div>
-		<div class="resultContainer10">
-			<div class="result10" id="rslt10">400 votes</div>
-			<div class="buttonContainer10">
-				<button class="voteButton10" onclick="mclick10(1)"></button>
+		<div class="grid-item">
+			<div class="pic10"></div>
+			<div class="name10">Snoop Dog</div>
+			<div class="resultContainer10">
+				<div class="result10" id="rslt10">400 votes</div>
+				<div class="buttonContainer10">
+					<button class="voteButton10" onclick="mclick10(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic11"></div>
-		<div class="name11">Totoro</div>
-		<div class="resultContainer11">
-			<div class="result11" id="rslt11">200 votes</div>
-			<div class="buttonContainer11">
-				<button class="voteButton11" onclick="mclick11(1)"></button>
+		<div class="grid-item">
+			<div class="pic11"></div>
+			<div class="name11">Totoro</div>
+			<div class="resultContainer11">
+				<div class="result11" id="rslt11">200 votes</div>
+				<div class="buttonContainer11">
+					<button class="voteButton11" onclick="mclick11(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic12"></div>
-		<div class="name12">Headless Horseman</div>
-		<div class="resultContainer12">
-			<div class="result12" id="rslt12">300 votes</div>
-			<div class="buttonContainer12">
-				<button class="voteButton12" onclick="mclick12(1)"></button>
+		<div class="grid-item">
+			<div class="pic12"></div>
+			<div class="name12">Headless Horseman</div>
+			<div class="resultContainer12">
+				<div class="result12" id="rslt12">300 votes</div>
+				<div class="buttonContainer12">
+					<button class="voteButton12" onclick="mclick12(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic13"></div>
-		<div class="name13">DrStrange</div>
-		<div class="resultContainer13">
-			<div class="result13" id="rslt13">800 votes</div>
-			<div class="buttonContainer13">
-				<button class="voteButton13" onclick="mclick13(1)"></button>
+		<div class="grid-item">
+			<div class="pic13"></div>
+			<div class="name13">DrStrange</div>
+			<div class="resultContainer13">
+				<div class="result13" id="rslt13">800 votes</div>
+				<div class="buttonContainer13">
+					<button class="voteButton13" onclick="mclick13(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic14"></div>
-		<div class="name14">Dune</div>
-		<div class="resultContainer14">
-			<div class="result14" id="rslt14">600 votes</div>
-			<div class="buttonContainer14">
-				<button class="voteButton14" onclick="mclick14(1)"></button>
+		<div class="grid-item">
+			<div class="pic14"></div>
+			<div class="name14">Dune</div>
+			<div class="resultContainer14">
+				<div class="result14" id="rslt14">600 votes</div>
+				<div class="buttonContainer14">
+					<button class="voteButton14" onclick="mclick14(1)"></button>
+				</div>
 			</div>
 		</div>
-		<div class="pic15"></div>
-		<div class="name15">LightHouse</div>
-		<div class="resultContainer15">
-			<div class="result15" id="rslt15">220 votes</div>
-			<div class="buttonContainer15">
-				<button class="voteButton15" onclick="mclick15(1)"></button>
+		<div class="grid-item">
+			<div class="pic15"></div>
+			<div class="name15">LightHouse</div>
+			<div class="resultContainer15">
+				<div class="result15" id="rslt15">220 votes</div>
+				<div class="buttonContainer15">
+					<button class="voteButton15" onclick="mclick15(1)"></button>
+				</div>
 			</div>
 		</div>
-
+		</div>
 	</div>
 
 	</body>

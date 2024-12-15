@@ -193,8 +193,8 @@
     color: #FFEA8C;
     position: absolute;
     left: 50%;
-    top: 2%;
-    transform:translate(-50%,-2%);
+    top: 1%;
+    transform:translate(-50%,-1%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 80%;
@@ -206,8 +206,8 @@
     color: #FFEA8C;
     position: absolute;
     left: 50%;
-    top: 10%;
-    transform:translate(-50%,-10%);
+    top: 5%;
+    transform:translate(-50%,-5%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 90%;
@@ -224,20 +224,12 @@
     display: flex;
     background-size: cover;
     background-position-x: 0px;
-    left: 15%;
-    top: 15%;
-    transform:translate(-15%,-15%);
-    position: absolute;
 }
 
 .name1 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 15%;
-    top: 25%;
-    transform:translate(-15%,-25%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -255,9 +247,6 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 15%;
-    top: 27%;
-    transform:translate(-15%,-27%);
 }
 
 .result1 {
@@ -297,9 +286,6 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 50%;
-    top: 27%;
-    transform:translate(-50%,-27%);
 }
 
 .result2 {
@@ -339,9 +325,6 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 85%;
-    top: 27%;
-    transform:translate(-85%,-27%);
 }
 
 .result3 {
@@ -381,9 +364,6 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 15%;
-    top: 45%;
-    transform:translate(-15%,-45%);
 }
 
 .result4 {
@@ -423,9 +403,6 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 50%;
-    top: 45%;
-    transform:translate(-50%,-45%);
 }
 
 .result5 {
@@ -465,9 +442,6 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 85%;
-    top: 45%;
-    transform:translate(-85%,-45%);
 }
 
 .result6 {
@@ -507,9 +481,6 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 15%;
-    top: 63%;
-    transform:translate(-15%,-63%);
 }
 
 .result7 {
@@ -549,9 +520,6 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 50%;
-    top: 63%;
-    transform:translate(-50%,-63%);
 }
 
 .result8 {
@@ -591,9 +559,6 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 85%;
-    top: 63%;
-    transform:translate(-85%,-63%);
 }
 
 .result9 {
@@ -633,9 +598,6 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 15%;
-    top: 82%;
-    transform:translate(-15%,-82%);
 }
 
 .result10 {
@@ -675,9 +637,6 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 50%;
-    top: 82%;
-    transform:translate(-50%,-82%);
 }
 
 .result11 {
@@ -717,9 +676,6 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 85%;
-    top: 82%;
-    transform:translate(-85%,-82%);
 }
 
 .result12 {
@@ -759,14 +715,12 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 15%;
-    top: 99.5%;
-    transform:translate(-15%,-99.5%);
 }
 
 .result13 {
-    font-size: 2em;
+    font-size: 3em;
     color: #FFEA8C;
+    margin-bottom: 10px;
 }
 
 .buttonContainer13 {
@@ -800,14 +754,12 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 50%;
-    top: 99.5%;
-    transform:translate(-50%,-99.5%);
 }
 
 .result14 {
-    font-size: 2em;
+    font-size: 3em;
     color: #FFEA8C;
+    margin-bottom: 10px;
 }
 
 .buttonContainer14 {
@@ -841,14 +793,12 @@
     color: white;
     height: 100px;
     width: 300px;
-    left: 85%;
-    top: 99.5%;
-    transform:translate(-85%,-99.5%);
 }
 
 .result15 {
-    font-size: 2em;
+    font-size: 3em;
     color: #FFEA8C;
+    margin-bottom: 10px;
 }
 
 .buttonContainer15 {
@@ -877,20 +827,12 @@
     display: flex;
     background-size: cover;
     background-position-x: -150px;
-    left: 50%;
-    top: 15%;
-    transform:translate(-50%,-15%);
-    position: absolute;
 }
 
 .name2 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 50%;
-    top: 25%;
-    transform:translate(-50%,-25%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -903,20 +845,12 @@
     display: flex;
     background-size: cover;
     background-position-x: 0px;
-    left: 85%;
-    top: 15%;
-    transform:translate(-85%,-15%);
-    position: absolute;
 }
 
 .name3 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 85%;
-    top: 25%;
-    transform:translate(-85%,-25%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -929,20 +863,12 @@
     display: flex;
     background-size: cover;
     background-position-x: -130px;
-    left: 15%;
-    top: 35%;
-    transform:translate(-15%,-35%);
-    position: absolute;
 }
 
 .name4 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 15%;
-    top: 43%;
-    transform:translate(-15%,-43%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -955,20 +881,12 @@
     display: flex;
     background-size: cover;
     background-position-x: -20px;
-    left: 50%;
-    top: 35%;
-    transform:translate(-50%,-35%);
-    position: absolute;
 }
 
 .name5 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 50%;
-    top: 43%;
-    transform:translate(-50%,-43%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -981,20 +899,12 @@
     display: flex;
     background-size: cover;
     background-position-x: -110px;
-    left: 85%;
-    top: 35%;
-    transform:translate(-85%,-35%);
-    position: absolute;
 }
 
 .name6 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 85%;
-    top: 43%;
-    transform:translate(-85%,-43%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -1007,20 +917,12 @@
     display: flex;
     background-size: cover;
     background-position-x: 0px;
-    left: 15%;
-    top: 55%;
-    transform:translate(-15%,-55%);
-    position: absolute;
 }
 
 .name7 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 15%;
-    top: 61%;
-    transform:translate(-15%,-61%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -1033,20 +935,12 @@
     display: flex;
     background-size: cover;
     background-position-x: -100px;
-    left: 50%;
-    top: 55%;
-    transform:translate(-50%,-55%);
-    position: absolute;
 }
 
 .name8 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 50%;
-    top: 61%;
-    transform:translate(-50%,-61%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -1059,20 +953,12 @@
     display: flex;
     background-size: cover;
     background-position-x: -140px;
-    left: 85%;
-    top: 55%;
-    transform:translate(-85%,-55%);
-    position: absolute;
 }
 
 .name9 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 85%;
-    top: 61%;
-    transform:translate(-85%,-61%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -1085,20 +971,12 @@
     display: flex;
     background-size: cover;
     background-position-x: 0px;
-    left: 15%;
-    top: 75%;
-    transform:translate(-15%,-75%);
-    position: absolute;
 }
 
 .name10 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 15%;
-    top: 79%;
-    transform:translate(-15%,-79%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -1110,20 +988,12 @@
     background: url("../images/Totoro.JPG") center no-repeat;
     display: flex;
     background-size: cover;
-    left: 50%;
-    top: 75%;
-    transform:translate(-50%,-75%);
-    position: absolute;
 }
 
 .name11 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 50%;
-    top: 79%;
-    transform:translate(-50%,-79%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -1135,20 +1005,12 @@
     background: url("../images/Horse.jpeg") center no-repeat;
     display: flex;
     background-size: cover;
-    left: 85%;
-    top: 75%;
-    transform:translate(-85%,-75%);
-    position: absolute;
 }
 
 .name12 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 85%;
-    top: 79%;
-    transform:translate(-85%,-79%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -1160,20 +1022,12 @@
     background: url("../images/DrStrange.jpg") center no-repeat;
     display: flex;
     background-size: cover;
-    left: 15%;
-    top: 95%;
-    transform:translate(-15%,-95%);
-    position: absolute;
 }
 
 .name13 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 15%;
-    top: 97%;
-    transform:translate(-15%,-97%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -1185,20 +1039,12 @@
     background: url("../images/Dune.jpg") center no-repeat;
     display: flex;
     background-size: cover;
-    left: 50%;
-    top: 95%;
-    transform:translate(-50%,-95%);
-    position: absolute;
 }
 
 .name14 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 50%;
-    top: 97%;
-    transform:translate(-50%,-97%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -1210,20 +1056,12 @@
     background: url("../images/LightHouse.jpg") center no-repeat;
     display: flex;
     background-size: cover;
-    left: 85%;
-    top: 95%;
-    transform:translate(-85%,-95%);
-    position: absolute;
 }
 
 .name15 {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
-    position: absolute;
-    left: 85%;
-    top: 97%;
-    transform:translate(-85%,-97%);
     letter-spacing: 0.3px;
     text-align: center;
     width: 300px;
@@ -1274,30 +1112,24 @@
     width: 60%;
 }
 
-.leftArrow {
-    width: 50px;
-    height: 50px;
-    background: url("../images/right-arrow-svgrepo-com.svg") center no-repeat;
-    color: #FFEA8C;
+.grid {
     display: flex;
-    background-size: cover;
-    left: 7%;
-    top: 50%;
-    transform:translate(-7%,-50%) rotate(180deg);
-    position: absolute;
+    flex-wrap: wrap;
+    position: relative;
+    top: 6.4%;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+    height: 350vh;
 }
 
-.rightArrow {
-    width: 50px;
-    height: 50px;
-    background: url("../images/right-arrow-svgrepo-com.svg") center no-repeat;
-    color: #FFEA8C;
-    display: flex;
-    background-size: cover;
-    left: 93%;
-    top: 50%;
-    transform:translate(-93%,-50%);
-    position: absolute;
+.grid-item {
+    box-sizing: border-box;
+    height: 18%;
+    width: 300px;
+    margin: 40px 60px;
+    float: left;
+    position: relative;
 }
 
 .footer {

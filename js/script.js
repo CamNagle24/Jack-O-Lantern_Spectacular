@@ -115,3 +115,23 @@ function mclick15(change) {
     score15 += change;
     document.getElementById("rslt15").textContent = score15 + " votes";
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    var elem = document.querySelector('.grid'); // Select the grid container
+    var iso = new Isotope(elem, {
+      itemSelector: '.grid-item', // Specify each grid item
+      layoutMode: 'fitRows', // Layout mode
+    });
+  
+    // Example: Add filtering logic
+    document.querySelectorAll('.filter span').forEach(function (filterButton) {
+      filterButton.addEventListener('click', function () {
+        var filterValue = this.textContent.toLowerCase(); // Use button text as filter (example)
+        if (filterValue === 'all') {
+          iso.arrange({ filter: '*' }); // Show all items
+        } else {
+          iso.arrange({ filter: '.' + filterValue }); // Filter by class (needs proper setup in HTML)
+        }
+      });
+    });
+  });
