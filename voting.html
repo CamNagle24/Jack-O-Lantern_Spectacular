@@ -34,13 +34,11 @@
 	<div class="voting">
 		<h1 class="title">Pumpkin Voting</h1>
 		<h1 class="filter">Filter By: 
-			<span>All</span> 
-			<span>Top voted</span> 
-			<span>Featured</span> 
-			<span>Recent</span> 
-			<span>a-z</span> 
-			<span>z-a</span> 
-			<span>Giant</span></h1>
+			<button class="filter-btn" data-filter="*">All</button> 
+			<button class="filter-btn" data-filter="top-voted">Top Voted</button> 
+			<button class="filter-btn" data-filter="a-z">A-Z</button> 
+			<button class="filter-btn" data-filter="z-a">Z-A</button> 
+			<button class="filter-btn" data-filter=".giant">Giant</button></h1>
 		<div class="grid">
 		<!-- Each entry is a grid-item -->
 		<div class="grid-item">
@@ -73,7 +71,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="grid-item">
+		<div class="grid-item giant">
 			<div class="pic4"></div>
 			<div class="name4">Frankenstein</div>
 			<div class="resultContainer4">
@@ -83,11 +81,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="grid-item">
+		<div class="grid-item giant">
 			<div class="pic5"></div>
-			<div class="name5">Pirate Ship</div>
+			<div class="name5">Leaning tower of pisa</div>
 			<div class="resultContainer5">
-				<div class="result5" id="rslt5">900 votes</div>
+				<div class="result5" id="rslt5">120 votes</div>
 				<div class="buttonContainer5">
 					<button class="voteButton5" onclick="mclick5(1)"></button>
 				</div>
@@ -95,15 +93,15 @@
 		</div>
 		<div class="grid-item">
 			<div class="pic6"></div>
-			<div class="name6">Leaning tower of pisa</div>
+			<div class="name6">Pirate Ship</div>
 			<div class="resultContainer6">
-				<div class="result6" id="rslt6">120 votes</div>
+				<div class="result6" id="rslt6">900 votes</div>
 				<div class="buttonContainer6">
 					<button class="voteButton6" onclick="mclick6(1)"></button>
 				</div>
 			</div>
 		</div>
-		<div class="grid-item">
+		<div class="grid-item giant">
 			<div class="pic7"></div>
 			<div class="name7">T-Rex</div>
 			<div class="resultContainer7">
@@ -183,7 +181,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="grid-item">
+		<div class="grid-item giant">
 			<div class="pic15"></div>
 			<div class="name15">LightHouse</div>
 			<div class="resultContainer15">

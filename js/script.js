@@ -50,13 +50,13 @@ function mclick4(change) {
     document.getElementById("rslt4").textContent = score4 + " votes";
 }
 
-let score5 = 900;
+let score5 = 120;
 function mclick5(change) {
     score5 += change;
     document.getElementById("rslt5").textContent = score5 + " votes";
 }
 
-let score6 = 120;
+let score6 = 900;
 function mclick6(change) {
     score6 += change;
     document.getElementById("rslt6").textContent = score6 + " votes";
@@ -135,3 +135,54 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   });
+
+// Custom filter functions
+var filterFns = {
+    // Show items with top votes (greater than 500)
+    'top-voted': function() {
+        var votes = $(this).find('.result1, .result2, .result3, .result4, .result5, .result6, .result7, .result8, .result9, .result10, .result11, .result12, .result13, .result14, .result15').text();
+        return parseInt(votes, 10) > 500; // Only show items with votes greater than 500
+    },
+    // A-Z sorting
+    'a-z': function(a, b) {
+        var nameA = $(a).find('div[class^="name"]').text().toLowerCase();
+        var nameB = $(b).find('div[class^="name"]').text().toLowerCase();
+        return nameA.localeCompare(nameB);
+    },
+    // Z-A sorting
+    'z-a': function(a, b) {
+        var nameA = $(a).find('div[class^="name"]').text().toLowerCase();
+        var nameB = $(b).find('div[class^="name"]').text().toLowerCase();
+        return nameB.localeCompare(nameA);
+    }
+};
+
+// Initialize Isotope
+var $grid = $('.grid').isotope({
+    itemSelector: '.grid-item',
+    layoutMode: 'fitRows'
+});
+
+// Handle button clicks
+$('.filter').on('click', 'button', function() {
+    var filterValue = $(this).attr('data-filter');
+
+    // Handle custom filters
+    if (filterFns[filterValue]) {
+        if (filterValue === 'a-z' || filterValue === 'z-a') {
+            // Sorting requires using Isotope's sort function
+            $grid.isotope({
+                sortBy: 'original-order',
+                sortAscending: filterValue === 'a-z'
+            });
+        } else {
+            // Apply custom filter functions
+            $grid.isotope({
+                filter: filterFns[filterValue]
+            });
+        }
+    } else {
+        // Default behavior for CSS selectors
+        $grid.isotope({ filter: filterValue });
+    }
+});

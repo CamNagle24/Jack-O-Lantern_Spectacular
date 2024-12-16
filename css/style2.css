@@ -1132,6 +1132,28 @@
     position: relative;
 }
 
+.filter-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #780145;
+    border: none;
+    border-radius: 5px;
+    color: #FFEA8C;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: 'Creepster';
+    transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: #FFA500; /* Darker orange on hover */
+}
+
+.filter-btn:focus {
+    outline: none;
+    background-color: #d58512; /* Even darker orange when clicked */
+}
+
 .footer {
     width: 100vw;
     height: 10vh;
