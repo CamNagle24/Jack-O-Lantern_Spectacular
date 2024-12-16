@@ -226,7 +226,7 @@
     background-position-x: 0px;
 }
 
-.name1 {
+.name {
     font-family: 'Creepster';
     font-size: 2em;
     color: #FFEA8C;
@@ -235,7 +235,7 @@
     width: 300px;
 }
 
-.resultContainer1 {
+.resultContainer {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -249,18 +249,18 @@
     width: 300px;
 }
 
-.result1 {
+.result {
     font-size: 3em;
     color: #FFEA8C;
     margin-bottom: 10px;
 }
 
-.buttonContainer1 {
+.buttonContainer {
     display: flex;
     gap: 10px;
 }
 
-.voteButton1 {
+.voteButton {
     background: url(../images/Vector.svg) center no-repeat;
     background-size: contain;
     width: 50px;
@@ -270,553 +270,7 @@
     transition: transform 0.2s, background-color 0.2s;
 }
 
-.voteButton1:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer2 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result2 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer2 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton2 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton2:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer3 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result3 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer3 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton3 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton3:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer4 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result4 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer4 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton4 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton4:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer5 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result5 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer5 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton5 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton5:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer6 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result6 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer6 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton6 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton6:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer7 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result7 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer7 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton7 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton7:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer8 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result8 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer8 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton8 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton8:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer9 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result9 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer9 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton9 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton9:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer10 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result10 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer10 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton10 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton10:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer11 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result11 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer11 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton11 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton11:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer12 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result12 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer12 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton12 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton12:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer13 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result13 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer13 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton13 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton13:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer14 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result14 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer14 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton14 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton14:hover {
-    transform: scale(1.1);
-}
-
-.resultContainer15 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-family: 'Archivo Black';
-    font-size: 1em;
-    color: white;
-    height: 100px;
-    width: 300px;
-}
-
-.result15 {
-    font-size: 3em;
-    color: #FFEA8C;
-    margin-bottom: 10px;
-}
-
-.buttonContainer15 {
-    display: flex;
-    gap: 10px;
-}
-
-.voteButton15 {
-    background: url(../images/Vector.svg) center no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px; 
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.voteButton15:hover {
+.voteButton:hover {
     transform: scale(1.1);
 }
 
@@ -829,15 +283,6 @@
     background-position-x: -150px;
 }
 
-.name2 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
-}
-
 .pic3 {
     width: 300px;
     height: 300px;
@@ -845,15 +290,6 @@
     display: flex;
     background-size: cover;
     background-position-x: 0px;
-}
-
-.name3 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
 }
 
 .pic4 {
@@ -865,15 +301,6 @@
     background-position-x: -130px;
 }
 
-.name4 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
-}
-
 .pic5 {
     width: 300px;
     height: 300px;
@@ -881,15 +308,6 @@
     display: flex;
     background-size: cover;
     background-position-x: -20px;
-}
-
-.name5 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
 }
 
 .pic6 {
@@ -901,15 +319,6 @@
     background-position-x: -110px;
 }
 
-.name6 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
-}
-
 .pic7 {
     width: 300px;
     height: 300px;
@@ -917,15 +326,6 @@
     display: flex;
     background-size: cover;
     background-position-x: 0px;
-}
-
-.name7 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
 }
 
 .pic8 {
@@ -937,15 +337,6 @@
     background-position-x: -100px;
 }
 
-.name8 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
-}
-
 .pic9 {
     width: 300px;
     height: 300px;
@@ -953,15 +344,6 @@
     display: flex;
     background-size: cover;
     background-position-x: -140px;
-}
-
-.name9 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
 }
 
 .pic10 {
@@ -973,30 +355,12 @@
     background-position-x: 0px;
 }
 
-.name10 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
-}
-
 .pic11 {
     width: 300px;
     height: 300px;
     background: url("../images/Totoro.JPG") center no-repeat;
     display: flex;
     background-size: cover;
-}
-
-.name11 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
 }
 
 .pic12 {
@@ -1007,30 +371,12 @@
     background-size: cover;
 }
 
-.name12 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
-}
-
 .pic13 {
     width: 300px;
     height: 300px;
     background: url("../images/DrStrange.jpg") center no-repeat;
     display: flex;
     background-size: cover;
-}
-
-.name13 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
 }
 
 .pic14 {
@@ -1041,30 +387,12 @@
     background-size: cover;
 }
 
-.name14 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
-}
-
 .pic15 {
     width: 300px;
     height: 300px;
     background: url("../images/LightHouse.jpg") center no-repeat;
     display: flex;
     background-size: cover;
-}
-
-.name15 {
-    font-family: 'Creepster';
-    font-size: 2em;
-    color: #FFEA8C;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 300px;
 }
 
 .regular {

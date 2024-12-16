@@ -26,95 +26,23 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 });
 
-let score1 = 115;
-function mclick1(change) {
-    score1 += change;
-    document.getElementById("rslt1").textContent = score1 + " votes";
-}
+document.addEventListener('DOMContentLoaded', function () {
+    // Add event listeners to all vote buttons
+    document.querySelectorAll('.voteButton').forEach(function (button) {
+        button.addEventListener('click', function () {
+            // Find the closest grid item and its corresponding `.result` element
+            const gridItem = button.closest('.grid-item'); // Find the parent grid item
+            const resultElement = gridItem.querySelector('.result'); // Locate the `.result` within the grid item
 
-let score2 = 500;
-function mclick2(change) {
-    score2 += change;
-    document.getElementById("rslt2").textContent = score2 + " votes";
-}
+            // Extract the current vote count and increment it
+            let currentVotes = parseInt(resultElement.textContent.match(/\d+/)[0], 10);
+            currentVotes += 1; // Increment the vote count
 
-let score3 = 255;
-function mclick3(change) {
-    score3 += change;
-    document.getElementById("rslt3").textContent = score3 + " votes";
-}
-
-let score4 = 600;
-function mclick4(change) {
-    score4 += change;
-    document.getElementById("rslt4").textContent = score4 + " votes";
-}
-
-let score5 = 120;
-function mclick5(change) {
-    score5 += change;
-    document.getElementById("rslt5").textContent = score5 + " votes";
-}
-
-let score6 = 900;
-function mclick6(change) {
-    score6 += change;
-    document.getElementById("rslt6").textContent = score6 + " votes";
-}
-
-let score7 = 800;
-function mclick7(change) {
-    score7 += change;
-    document.getElementById("rslt7").textContent = score7 + " votes";
-}
-
-let score8 = 500;
-function mclick8(change) {
-    score8 += change;
-    document.getElementById("rslt8").textContent = score8 + " votes";
-}
-
-let score9 = 800;
-function mclick9(change) {
-    score9 += change;
-    document.getElementById("rslt9").textContent = score9 + " votes";
-}
-
-let score10 = 400;
-function mclick10(change) {
-    score10 += change;
-    document.getElementById("rslt10").textContent = score10 + " votes";
-}
-
-let score11 = 200;
-function mclick11(change) {
-    score11 += change;
-    document.getElementById("rslt11").textContent = score11 + " votes";
-}
-
-let score12 = 300;
-function mclick12(change) {
-    score12 += change;
-    document.getElementById("rslt12").textContent = score12 + " votes";
-}
-
-let score13 = 800;
-function mclick13(change) {
-    score13 += change;
-    document.getElementById("rslt13").textContent = score13 + " votes";
-}
-
-let score14 = 600;
-function mclick14(change) {
-    score14 += change;
-    document.getElementById("rslt14").textContent = score14 + " votes";
-}
-
-let score15 = 220;
-function mclick15(change) {
-    score15 += change;
-    document.getElementById("rslt15").textContent = score15 + " votes";
-}
+            // Update the `.result` element text
+            resultElement.textContent = `${currentVotes} votes`;
+        });
+    });
+});
 
 document.addEventListener('DOMContentLoaded', function () {
     var elem = document.querySelector('.grid'); // Select the grid container
